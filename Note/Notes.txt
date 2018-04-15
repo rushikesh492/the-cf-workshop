@@ -1,0 +1,93 @@
+AWS new services launched since re-invent:
+1) Released H1 family of EC2 instances,
+	Typically for big data, kafka streamming and map reduce
+	16 TB insternally attached HDD
+2) EC2 M5 instance, by new lightweight Nitro hyperwisor
+3) M4 to M5 launching needs, driver installation and cut out to new AMI
+4) Kubernetes as service, 
+5) AWS Fargate, Run containers without managing servers or clusters
+	Resource based pricing
+	No instance management
+6) Aurora Multi-Master
+	relational DB service with scale-out reads and writes
+	single-region multi-master, multi-region multi-master(coming up)
+7) Aurora serverless
+	Serverless version of database
+	Automatically scales with no instances
+8) DynamoDB Global tables
+	multi master, multi-region database
+	immidiate access to tables across region after write operation
+9) DynamoDB backup and restore
+	on-demand and continuous backups
+10) Amazon neptune
+	Graph database
+11) Amazon s3 select
+	Fetch specific contents from object
+	Using standard sql expression
+12) Amazon glacier select
+13) Amazon sageMaker
+	For build, train and deploy machine learning model at scales
+	one click training, one click deployment
+14) DeepLens
+	Deep learning enabled video camera
+15) Kinesis video streams
+	Stream video and time-encoded data for analytics
+16) Video rekognition
+	Person tracking
+	facial recognition
+	object and activity detection
+	video streaming support
+17) Transcribe
+	Automatic speech recognition
+	Adds speech to text feature to app
+	support regular and telephony audio
+	s3 integration
+	recognize multiple speakers
+18) Amazon translate
+	Translate in different language
+19) Comprehend
+	Natural lang processing to discover insights from text
+20) IoT 1-click
+	one click creation of an AWS lambda function for any device.
+	IOT buttons
+21) IoT Device management
+	management for connected IoT devices
+	Over air updates
+22) IoT device defender
+	define and enforce security policies for IoT fleets of devices.
+23) IoT Analytics (Easily analyze IOT devices)
+	collect data from multiple sensors
+	data processing
+	store data
+	run queries on data
+	In depth analysis with jupyter notebooks
+24) AWS Greengrass ML Inference
+	Run machine learning model
+25) FreeRTOS
+	O/S for microcontrollers
+26) Systems Manager
+	To run command on ec2 servers remotely
+27) Cloud9
+	cloud based IDE
+28) Alexa for business
+	transform your workspace with voice
+29) Serverless application repository
+	discover, deploy and publish serverless applications
+30) Amazon MQ
+31) AWS AppSync
+	build data driven mobile and web apps with real time updates and an offline programming model
+32) Amazon GuardDuty
+	Intelligent threat detection for AWS accounts and workloads
+33) Sumerian
+	way to create VR, AR and 3D
+34) Elemental MediaConvert
+	compress video files to deliver to connected devices
+35) Elemental MediaPackage
+36) Elemental MediaLive
+37) Elemental MediaStore
+	Optimised and high performance storage for live video storage
+38) Elemental MediaTailor
+	Deliver and track ads to viewers
+39) AWS privateLink
+	Share AWS services privately between VPC and on-premises network
+40) AWS secrets manager
